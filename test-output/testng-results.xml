@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-12T19:21:12 IST" name="Suite" finished-at="2025-11-12T19:21:50 IST" duration-ms="37320">
+    <groups>
+      <group name="cucumber">
+        <method signature="CustomizeTestNGCucumberRunner.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.Runner@3c435123]" name="runScenario" class="com.baseclass.CustomizeTestNGCucumberRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-11-12T19:21:12 IST" name="Test" finished-at="2025-11-12T19:21:50 IST" duration-ms="37320">
+      <class name="com.runner.Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runner.Runner@3c435123]" started-at="2025-11-12T19:21:12 IST" name="setUpClass" finished-at="2025-11-12T19:21:13 IST" duration-ms="958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6dd20ec9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.Runner@3c435123]" started-at="2025-11-12T19:21:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-12T19:21:31 IST" duration-ms="18180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user can add a new element"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add and Remove Elements functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.Runner@3c435123]" started-at="2025-11-12T19:21:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-12T19:21:47 IST" duration-ms="15765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user can remove an element"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add and Remove Elements functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runner.Runner@3c435123]" started-at="2025-11-12T19:21:47 IST" name="tearDownClass" finished-at="2025-11-12T19:21:50 IST" duration-ms="2350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.Runner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

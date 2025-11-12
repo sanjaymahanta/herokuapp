@@ -1,0 +1,10 @@
+[2025-11-12 19:34:09] INFO  WebDriverManager - Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+[2025-11-12 19:34:10] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\meena\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+[2025-11-12 19:34:25] INFO  Log - click on add/remove link
+[2025-11-12 19:34:25] INFO  Log - Page is open
+[2025-11-12 19:34:26] INFO  WebDriverManager - Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+[2025-11-12 19:34:26] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\meena\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+[2025-11-12 19:34:41] INFO  Log - click on add/remove link
+[2025-11-12 19:34:41] INFO  Log - User has added a new element before deletion
+[2025-11-12 19:34:41] INFO  Log - Page is open
+[2025-11-12 19:34:52] INFO  Log - User deleted the element
